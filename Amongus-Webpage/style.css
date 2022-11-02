@@ -1,0 +1,21 @@
+h1{
+    font-family: "Arial";
+    color:aliceblue;
+    border:#000000;
+}
+p{
+    font-family: "Arial";
+    color:aliceblue;
+    border:#000000;
+}
+#pealehebody {
+    background-image: url("tagus.jpg");
+    background-color: #000000;
+   }
+#electricalbody {
+    background-image: url("electricalimage.png");
+    background-color: #000000;
+}
+p:hover {
+    background-color: red;
+  }
