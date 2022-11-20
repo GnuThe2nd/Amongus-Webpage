@@ -1,0 +1,18 @@
+h1{
+    font-family: "Arial";
+    color:aliceblue;
+    border:#000000;
+}
+p{
+    font-family: "Arial";
+    color:aliceblue;
+    border:#000000;
+}
+
+#medbaybody {
+    background-image: url("medbayimage.png");
+    background-color: #000000;
+}
+p:hover {
+    background-color: red;
+  }
