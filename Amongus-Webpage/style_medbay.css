@@ -6,13 +6,19 @@ h1{
 p{
     font-family: "Arial";
     color:aliceblue;
-    border:#000000;
+    border:#000000,;
 }
 
-#medbaybody {
-    background-image: url("medbayimage.png");
-    background-color: #000000;
-}
+html { 
+    background: url(medbayimage.png) no-repeat center center, url(tagus.jpg) ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 80%;
+  }
+
+
 p:hover {
-    background-color: red;
+    background-color: gray;
+    
   }
