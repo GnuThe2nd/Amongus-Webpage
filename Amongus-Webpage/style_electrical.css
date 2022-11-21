@@ -8,14 +8,19 @@ p{
     color:aliceblue;
     border:#000000;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> f652bbd575a64b8fe7b1eac68fb78408e15849ae
-#electricalbody {
-    background-image: url("electricalimage.png");
-    background-color: #000000;
-}
 p:hover {
     background-color: red;
   }
+html { 
+    background: url(electricalimage.png) no-repeat center center, url(tagus.jpg) ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+    width: 1920px;
+    height: 900px;
+    border: 2px solid;
+    color: black;
+    resize: both;
+    overflow: scroll;
+}
