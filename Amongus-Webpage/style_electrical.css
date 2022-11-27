@@ -12,7 +12,7 @@ p:hover {
     background-color: red;
   }
 html { 
-    background: url(electricalimage.png) no-repeat center center, url(tagus.jpg) ; 
+    background:url(tagus.jpg) ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -23,4 +23,7 @@ html {
     color: black;
     resize: both;
     overflow: scroll;
+}
+img{
+    display:none
 }
