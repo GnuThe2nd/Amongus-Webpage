@@ -3,13 +3,13 @@ h1{
     color:aliceblue;
     border:#000000;
 }
-p{
+b{
     font-family: "Arial";
     color:aliceblue;
     border:#000000;
 }
-p:hover {
-    background-color: red;
+b:hover {
+    background-color: gray;
   }
 html { 
     background:url(tagus.jpg) ;
@@ -24,6 +24,45 @@ html {
     resize: both;
     overflow: scroll;
 }
-img{
-    display:none
+#eleimg{
+    display:none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+    resize: both;
+    overflow: scroll;
+
 }
+.static {
+    height: 100px;
+    width: 100px;
+    opacity:100;
+    background-color: #000000;
+  }
+  
+.static:hover {
+    height: 100px;
+    width: 100px;
+    opacity:0;
+  }
+.active{
+    height: 100px;
+    width: 100px;
+}
+.active:hover{
+    height: 100px;
+    width: 100px;
+}
+.parent {
+    position: relative;
+    height:100px;
+    width:100px;
+  }
+.child {
+    position: absolute;
+    top:0;
+    left:0;
+    height:100px;
+    width:100px;
+  }
