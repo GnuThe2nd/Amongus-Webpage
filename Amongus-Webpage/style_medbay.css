@@ -10,12 +10,27 @@ p{
 }
 
 html { 
-    background: url(medbayimage.png) no-repeat center center, url(tagus.jpg) ; 
+    background: url(tagus.jpg) ; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: 80%;
+    background-size: contain;
+    width: 1920px;
+    height: 900px;
+    border: 2px solid;
+    color: black;
+    resize: both;
+    overflow: scroll;
+    position:relative;
   }
+#medimg{
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: contain;
+  resize: both;
+  overflow: scroll;
+}
 
 
 p:hover {
