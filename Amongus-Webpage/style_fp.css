@@ -16,3 +16,13 @@ p{
 p:hover {
     background-color: red;
   }
+#kaart{
+    z-index:10;
+    cursor:move;
+    position:absolute;
+}
+#kaartheader{
+    z-index:11;
+    cursor:move;
+    position:absolute;
+}
