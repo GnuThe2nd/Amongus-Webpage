@@ -32,3 +32,5 @@ function dragElement(elmnt) {
     document.onmousemove = null;
   }
 }
+
+// NB! Javascripti puhul tuli viidata, kust selle said :/

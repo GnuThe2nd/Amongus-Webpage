@@ -24,15 +24,45 @@ html {
     position:relative;
   }
 #medimg{
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: contain;
-  resize: both;
+  height:60%;
+  width:60%;
   overflow: scroll;
+  z-index: 1;
 }
 
+#medscangif{
+  height: 60%;
+  width: 24.7%;
+  position: absolute;
+  right: 956px;
+  top: 640px;
+  z-index: 3;
+  visibility:hidden;
+}
+#medscanimage{
+  height: 19.5%;
+  width: 18.5%;
+  position: absolute;
+  right: 1000px;
+  top: 968px;
+  z-index: 3;
+}  
+#nupp_pealehele{
+  position:absolute;
+  top: 850px;
+  left:90px;
+}
 
+#medscanbutton{
+  position:absolute;
+  height:35px;
+  width:300px;
+  top:1160px;
+  left:590px;
+  font-size:large;
+  font-family:'Amatic SC';
+  opacity: 100%;
+}
 p:hover {
     background-color: gray;
     
@@ -42,7 +72,7 @@ p:hover {
     height: 100px;
     width: 100px;
     opacity:100;
-    background-color: #000000;
+    background-color: #6d8689;
   }
   
 .static:hover {
@@ -70,3 +100,5 @@ p:hover {
     height:100px;
     width:100px;
   }
+
+/* GIFi viide: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.deviantart.com%2Fframed51%2Fart%2FScannin-At-the-Medbay-857413712&psig=AOvVaw3cpRdctVu35NplwvDzGsHn&ust=1669978138338000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJDdzb-f2PsCFQAAAAAdAAAAABAE */
