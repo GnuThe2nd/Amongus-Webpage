@@ -1,25 +1,75 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("RobotoMono-Bold.ttf")  format("truetype");
+}
+
 h1{
-    font-family: "Arial";
+    font-family: "Roboto";
+    font-size: 60px;
     color:aliceblue;
     border:#000000;
+    padding: 20px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #000000;
 }
 p{
-    font-family: "Arial";
+    font-family: "Roboto";
     color:aliceblue;
     border:#000000;
 }
+#leht{
+    font-family: "Roboto";
+    color:aliceblue;
+    font-size: 40px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;
+    width: 700px;
+    border: 6px;
+    padding: 20px;
+    margin: 10px;
+}
+
 #pealehebody {
     background-image: url("tagus.jpg");
     background-color: #000000;
    }
 
-p:hover {
+#text {
+    font-family: "Roboto";
+    font-size: 25px;
+    width: 700px;
+    border: 6px;
+    padding: 20px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;
+}
+
+#impostor{
+    color: red;
+    background: none;
+}
+
+#crewmate{
+    color: blue;
+    background: none;
+}
+
+#pilt{
+    position: fixed;
+    left: 800px;
+    top: 150px;
+    width: 300px;
+}
+
+a:hover {
     background-color: red;
   }
 #kaart{
     z-index:10;
     cursor:move;
     position:absolute;
+    top: 50px;
+    left: 400px
 }
 #kaartheader{
     z-index:11;
