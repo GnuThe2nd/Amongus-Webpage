@@ -15,7 +15,7 @@ h1{
   font-family: "Roboto";
   font-size: 25px;
   color:aliceblue;
-  width: 700px;
+  width: 750px;
   border: 6px;
   padding: 20px;
   -webkit-text-stroke-width: 1px;
@@ -23,6 +23,14 @@ h1{
 }
 #crewmate{
   color: blue;
+  background: none;
+}
+#impostor{
+  color: red;
+  background: none;
+}
+#task{
+  color: greenyellow;
   background: none;
 }
 html { 
