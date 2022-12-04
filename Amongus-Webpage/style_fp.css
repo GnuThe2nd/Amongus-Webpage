@@ -16,7 +16,7 @@ p{
     color:aliceblue;
     border:#000000;
 }
-#leht{
+.leht{
     font-family: "Roboto";
     color:aliceblue;
     font-size: 40px;
