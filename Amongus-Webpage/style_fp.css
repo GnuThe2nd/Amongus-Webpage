@@ -2,7 +2,6 @@
     font-family: "Roboto";
     src: url("RobotoMono-Bold.ttf")  format("truetype");
 }
-
 h1{
     font-family: "Roboto";
     font-size: 60px;
@@ -17,7 +16,7 @@ p{
     color:aliceblue;
     border:#000000;
 }
-.leht{
+#leht{
     font-family: "Roboto";
     color:aliceblue;
     font-size: 40px;
@@ -28,7 +27,6 @@ p{
     padding: 20px;
     margin: 10px;
 }
-
 #pealehebody {
     background-image: url("tagus.jpg");
     background-color: #000000;
@@ -43,24 +41,20 @@ p{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000000;
 }
-
 #impostor{
     color: red;
     background: none;
 }
-
 #crewmate{
     color: blue;
     background: none;
 }
-
 #pilt{
     position: fixed;
     left: 800px;
     top: 150px;
     width: 300px;
 }
-
 a:hover {
     background-color: red;
   }
