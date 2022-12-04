@@ -5,13 +5,13 @@
     <link rel="stylesheet" href="style_medbay.css">
     <script src="js_medbay.js"></script>
  
-<body id="medbaybody" onload="currentSlide(1)">
+<body id="medbaybody" onload="currentSlide(2)">
 
 <h1 id="pealkiri">MedBay</h1>
 
 <p id="tekst1">
-    MedBay on koht, kus <mark id="crewmate">töölistelidel</mark> võib olla ülesanne käia meditsiinilises kontrollis. Meditsiiniline kontroll on üks mitmest tööst.
-    See on erinev teistest sellega, et teised mängijad saavad näha, kui keegi seda teeb, mis garanteerib tema rolli.
+    MedBay on koht, kus <mark id="crewmate">töölistel</mark> võib olla ülesanne käia meditsiinilises kontrollis, mis on üks mitmest tööst, mis töölistel võib vaja teha olla.
+    "MedScan" on tähtis ülesanne, sest teised mängijad saavad näha, kui keegi seda teeb, seega saab selle abil garanteerida, kes on tööline.
 </p>
 <a href="amogusfp.html" id="nupp_pealehele">
     <div class="parent">
@@ -24,27 +24,28 @@
 <div>
     <img id="medimg" src="medbayimage.png" alt="Medbay pilt">
 </div>
-<input type ="button" onclick="showImage()" id="medscanbutton" value="Alusta meditsiinilist skänneeringut"><br>
+<input type ="button" onclick="showImage();fadeIn(textbox)" id="medscanbutton" value="Alusta meditsiinilist skänneeringut"><br>
 <img id="medscanimage" src="medscanimage.png" alt="medscanimage">
 <img id="medscangif" src="medscangif.gif" alt="medscangif">
+<img id="textbox" src="textbox.png" alt="textbox">
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
     <!-- Full-width images with number and caption text -->
     <div class="mySlides fade">
-      <div class="numbertext">1 / 3</div>
+      <div class="numbertext">3 / 3</div>
       <img src="medbay1.png" alt="medbay1" style="width:100%">
       <div class="text">MedBay kaardil "The Skeld"</div>
     </div>
   
     <div class="mySlides fade">
-      <div class="numbertext">2 / 3</div>
+      <div class="numbertext">1 / 3</div>
       <img src="medbay2.png" alt="medbay2" style="width:100%">
       <div class="text">MedBay kaardil "Mira HQ"</div>
     </div>
   
     <div class="mySlides fade">
-      <div class="numbertext">3 / 3</div>
+      <div class="numbertext">2 / 3</div>
       <img src="medbay3.png" alt="medbay3" style="width:100%">
       <div class="text">MedBay kaardil "Polus"</div>
     </div>

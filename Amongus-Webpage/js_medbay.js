@@ -3,6 +3,19 @@ function showImage() {
     img.style.visibility = 'visible';
 }
 
+
+
+function fadeIn(element) {
+  var op = 0.1;  // initial opacity
+  var timer = setInterval(function () {
+      if (op >= 1){
+          clearInterval(timer);
+      }
+      element.style.opacity = op;
+      op += 0.02;
+  }, 10);
+}
+
 /* https://stackoverflow.com/questions/15318357/show-hide-image-with-javascript */
 
 let slideIndex = 1;
