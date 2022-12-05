@@ -1,6 +1,5 @@
 function show(){
-    document.getElementById('eleimg')
-            .style.display = "block";
-    document.getElementById("lightswitch")
-            .style.display="none";
-} /*muudab css-s omadusi nupul ja electricali pildil */
+    document.getElementById('eleimg').style.display = "block";
+    document.getElementById('nupp_pealehele').style.display = "block";
+
+}

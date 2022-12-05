@@ -4,20 +4,22 @@
     <title>Electrical</title>
     <link rel="stylesheet" href="style_electrical.css">
     <script src="js_electrical.js"></script>
+
 <body id="electricalbody">
     <h1>Electrical</h1>
-    <p>Siin lehel saab parandada tulesid kui <mark id="impostor">teesklejad</mark> need kustu panevad</p>
-    <button id="nupp" onclick="show()">Valguslüliti</button>
+    <p>Siin lehel saab parandada tulesid kui <mark id="impostor">teesklejad</mark> need kustu panevad.</p>
+    <button id="nupp" onclick="show()">Paranda tuled!</button>
+
+    <img src="lib/electricalimage.png" alt="Electricali pilt" id="eleimg">
+
     <a href="amogusfp.html">
-        <div class="parent">
-            <img class="active" src="ventgif.gif" alt="ventgif">
-            <div class="child">
-                <img class="static" src="frame_00_delay-0.2s.png" alt="piltvent">
-            </div>
+        <div id="nupp_pealehele">
+            <img src="lib/closed_vent.png" alt="Tagasi esilehele" id="ventpilt">
+            <img src="lib/ventgif.gif" alt="Tagasi esilehele" id="ventgif">
         </div>
     </a>
     <div>
-        <img id="eleimg" src="electricalimage.png" alt="Electricali pilt">
+        <img id="eleimg" src="lib/electricalimage.png" alt="Electricali pilt">
     </div>
 </body>
 </html>
